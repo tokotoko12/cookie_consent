@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-consent {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+    z-index: 1000;
+}
+
+.cookie-consent p {
+    margin: 0 0 10px;
+}
+
+.cookie-consent button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cookie-consent button:hover {
+    background-color: #45a049;
+}
